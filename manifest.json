@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Quick URL Shortener",
+  "version": "1.0",
+  "description": "Shortens a URL quickly using TinyURL.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icons/icon48.png"
+    }
+  },
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}
